@@ -22,14 +22,14 @@ First clone the repo, on to your computer:
 git clone https://github.com/zzzbia/README-Generator.git
 ```
 
-Change directory into the develop directory in the project and run npm install:
+Change directory into the cloned repo and run npm install:
 
 ```
-cd ./README-Generator/develop && npm install
+cd ./README-Generator/ && npm install
 ```
 
 ## 💡 Usage
-While in the ./develop directory within the project root, run:
+While in the root directory, run:
 
 ```
 node index.js
@@ -38,7 +38,7 @@ node index.js
 The generator will prompt you with questions about your project and generate a readme which will be located under:
 
 ```
-./develop/readme.md
+./res/readme.md
 ```
 
 
