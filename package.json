@@ -1,14 +1,14 @@
 {
-	"name": "static-site",
+	"name": "README-Generator",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Have you ever had trouble writing a README for your project? Or just wished there was a multipurpose template you could use?  If you like the way this README looks. Then look no further! The README Generator creates a markdown file after asking you a series of questions!",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "zzzbia",
+	"license": "Apache-2.0",
 	"dependencies": {
 		"inquirer": "^6.5.2"
 	}
