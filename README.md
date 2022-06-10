@@ -40,7 +40,7 @@ The generator will prompt you with questions about your project and generate a r
 ```
 ./res/readme.md
 ```
-
+![alt text](/assets/TerminalEx.PNG)
 
 ## 👥 Contributing
 To contribute to the ReadMe generator:
