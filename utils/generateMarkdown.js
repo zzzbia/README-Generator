@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 	switch (license) {
@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 			return "";
 	}
 }
-// TODO: Create a function that returns the license link
+// a function that returns the license link
 // If there is no license, return an empty string
 
 function renderLicenseLink(license) {
@@ -60,17 +60,17 @@ ${data.description}
 ${data.license === "None" ? "" : "- [License](#📚-license)"}
 
 ## 💾 Installation
->${data.installation}
+${data.installation}
 
 ## 💡 Usage
-Here's a cool way to use the project **\`${data.usage} \`**
+${data.usage}
 
 
 ## 👥 Contributing
 ${data.contributing}
 
 ## 🔍 Tests
-\`\`\`${data.tests} \`\`\`
+${data.tests}
 
 ## 💭 Questions
 If you have any questions, please contact me at ${
