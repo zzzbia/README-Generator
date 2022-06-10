@@ -58,20 +58,22 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+	if (!data) {
+		console.log(
+			"No data provided, please make sure you filled everything and try again."
+		);
+	}
 	fs.writeFile(fileName, data, (e) => {
 		if (e) {
-			throw e;
+			console.log("Something went wrong saving your file:", e.message);
 		}
-		console.log("Success! Your README.md file has been generated!");
+		console.log("🎉 Success! Your README.md file has been generated! 🎉");
 	});
 }
 
 // TODO: Create a function to initialize app
 function init() {
 	inquirer.prompt(questions).then((response) => {
-		console.log(typeof response);
-		console.log(response);
-
 		const markdown = generateMarkdown(response);
 		writeToFile("README.md", markdown);
 	});

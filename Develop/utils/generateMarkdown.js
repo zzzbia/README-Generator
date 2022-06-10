@@ -52,25 +52,25 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## 📜 Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-- [License](#license)
+- [Installation](#💾-installation)
+- [Usage](#💡-usage)
+- [Contributing](#👥-contributing)
+- [Tests](#🔍-tests)
+- [Questions](#💭-questions)
+${data.license === "None" ? "" : "- [License](#📚-license)"}
 
 ## 💾 Installation
-${data.installation}
+>${data.installation}
 
 ## 💡 Usage
-${data.usage}
+Here's a cool way to use the project **\`${data.usage} \`**
 
 
 ## 👥 Contributing
 ${data.contributing}
 
 ## 🔍 Tests
-${data.tests}
+\`\`\`${data.tests} \`\`\`
 
 ## 💭 Questions
 If you have any questions, please contact me at ${
